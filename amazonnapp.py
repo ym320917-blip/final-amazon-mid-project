@@ -154,5 +154,3 @@ elif page== 'month period analysis':
     fig13=px.histogram(filtered_df,x='month periods')
     st.plotly_chart(fig13,use_container_width=True)
     
-
-! streamlit run amazonAPP.py
