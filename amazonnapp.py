@@ -1,4 +1,3 @@
-amazonnAPP.py
 import pandas as pd
 import streamlit as st
 import plotly.express as px
@@ -153,4 +152,3 @@ elif page== 'month period analysis':
     st.header('orders between periods')
     fig13=px.histogram(filtered_df,x='month periods')
     st.plotly_chart(fig13,use_container_width=True)
-    
