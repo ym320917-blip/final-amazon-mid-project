@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 st.set_page_config(page_title='amazon results',layout='wide')
-df=pd.read_csv('cleaned amazon dataframe.csv')
+df=pd.read_csv('cleaned amazon dataframe')
 st.title('amazon orders analysis dashboard')
 st.sidebar.header('filters')
 
